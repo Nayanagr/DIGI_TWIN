@@ -5,14 +5,14 @@ import numpy as np, matplotlib.pyplot as mpl
 from scipy.sparse.csgraph import laplacian
 #PARAMS
 GRID_SIZE = 50
-D = 0.49
-STEPS = 500
+D = 0.03
+STEPS = 1000
 
 #GRID
 
 C = np.zeros((GRID_SIZE, GRID_SIZE), dtype=float)
 center = GRID_SIZE//2
-C[center,center] = 100.0 # CO2 arbitary value
+C[center,10:40] = 50.0 # CO2 arbitary value
 
 ##dC/dt = D * (d²C/dx² + d²C/dy²)
 def diffusion(C,D):
