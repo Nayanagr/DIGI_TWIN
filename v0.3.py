@@ -3,7 +3,7 @@ import numpy as np
 
 # --- PARAMS ---
 GRID_SIZE = 100
-D = 0.05  # Diffusion Rate (Must be <= 0.25 for stability)
+D = 0.24  # Diffusion Rate (Must be <= 0.25 for stability)
 WIND_X = 0.2  # Wind X (Must be <= 1.0)
 WIND_Y = 0.05  # Wind Y (Must be <= 1.0)
 STEPS = 500
@@ -39,17 +39,12 @@ class Industry:
 def check_cfl_condition(D, ux, uy):
     """
     Checks if the simulation parameters will cause a crash (Numerical Instability).
-    Based on the Courant-Friedrichs-Lewy (CFL) condition.
     """
-    # 1. Check Diffusion Stability
-    # In 2D explicit method, D must be <= 0.25
     if D > 0.25:
         print(f"⚠️  WARNING: Diffusion rate {D} is UNSTABLE! (Must be <= 0.25)")
         print("   -> The simulation will likely explode or oscillate.")
         return False
 
-    # 2. Check Advection Stability (Courant Number)
-    # Wind speed cannot move particles more than 1 cell per step
     max_wind = max(abs(ux), abs(uy))
     if max_wind > 1.0:
         print(f"⚠️  WARNING: Wind speed {max_wind} is too fast! (Must be <= 1.0)")
@@ -111,8 +106,8 @@ if __name__ == '__main__':
     if is_safe:
         # 2. Define City
         sources = [
-            Industry(20, 50, emission_rate=5.0, name="Ground Source", stack_height=0),
-            Industry(40, 30, emission_rate=5.0, name="Tall Stack", stack_height=1)
+            Industry(20, 50, emission_rate=50.0, name="Ground Source", stack_height=0),
+            Industry(40, 30, emission_rate=35.0, name="Tall Stack", stack_height=3)
         ]
 
         # 3. Run
