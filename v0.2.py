@@ -3,10 +3,10 @@ import numpy as np
 
 # --------------PARAMS-------------------#
 GRID_SIZE = 100  # Larger size of grid
-D = 0.05         # Diffusion rate
+D = 0.09         # Diffusion rate
 W_X = 0.09       # Wind in right direction
 W_Y = 0.30       # Wind in upward direction
-STEPS = 100
+STEPS = 1000
 
 # ---------- Industry ------------------#
 class Industry:
@@ -73,7 +73,7 @@ def sim_run(industries, steps):
 if __name__ == "__main__":
     sources = [
         Industry(x=40, y=50, emission_rate=20.0, name="Mini Power Plant"),
-        Industry(x=30, y=10, emission_rate=20.0, name="Small Factory")
+        Industry(x=30, y=10, emission_rate=90.0, name="Small Factory")
     ]
 
     print(f"Simulating {STEPS} with WIND = ({W_X}, {W_Y})....")
