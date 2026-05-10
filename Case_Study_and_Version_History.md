@@ -53,7 +53,39 @@ I refactored the code so that everything is a "Module." You can now "paint" your
 1.  **Line Sources**: These represent roads. I used a rasterization algorithm to turn a road line into a series of emitting pixels. 
     ![Fig 4: Road/Line Source Modeling](assets/image2.png)
 2.  **Carbon Sinks**: This was the most rewarding part. I added "Natural Sinks" (forests) that actually *subtract* CO₂ from the grid.
-3.  **Map Integration (v3.0)**: The final breakthrough. You can now upload a PNG of a real city map, and the simulation will overlay the CO₂ plume directly on top of the streets.
+
+---
+
+### Phase 4: Applied Research — The Damoh Case Study (v3.1)
+In version 3.1, I moved from theoretical grids to a real-world application: **Damoh, India**. This experiment was designed to model the emissions from major industrial clusters and the urban core, testing various mitigation strategies.
+
+#### The Parameters
+| Parameter | Value |
+| :--- | :--- |
+| **Wind X** | 0.22 (Eastward) |
+| **Wind Y** | -0.08 (Southward) |
+| **Diffusion** | 0.11 |
+| **Simulation Steps** | 1000 |
+
+#### The Emission Inventory
+*   **Mycem NW "Main"**: Industrial point source (Rate: 120, Stack: 7).
+*   **Heidelberg Cement**: Major industrial source (Rate: 180, Stack: 9).
+*   **Urban Damoh**: Modeled as an area source (Radius: 12, Intensity: 1.8 units/step).
+*   **NH34 (Main Road)**: A heavy-traffic corridor (Traffic: 28,000, Emission Factor: 0.045).
+
+#### Experiment 4: The Baseline (No Mitigation)
+Before adding capture tech, I ran the simulation to see the "business as usual" scenario. The industrial plumes from Mycem and Heidelberg merged with the urban core emissions, creating a significant pollution corridor.
+![Fig 5: Damoh Baseline Emissions](assets/image6.png)
+*Caption: The full emission profile of Damoh without any intervention.*
+
+#### Experiment 5: Mitigation via Natural Sinks & Technology
+I then introduced targeted "Sinks" to see if we could "scrub" the air:
+1.  **Rajnagar Wetland Sink**: A natural area (12x10) with a capture density of 0.35 unit/step.
+2.  **Industrial Green Belt**: A strategic forest buffer (18x10) with 0.42 unit/step capture.
+3.  **DAC Deployment**: I placed Direct Air Capture (DAC) units at coordinates (50,50), (51,51), (52,52), and (52,53) with a massive 14 unit/step capture intensity.
+
+![Fig 6: Impact of Sinks and DAC](assets/image8.png)
+*Caption: The air quality significantly improves near the DAC deployment zones and the Green Belt.*
 
 ---
 
@@ -69,7 +101,7 @@ If you're looking to replicate these experiments, here is the technical stack:
 ---
 
 ### Conclusion: What's Next?
-This project started as a simple curiosity about how things spread. Today, it’s a framework that can model anything from a small neighborhood forest to a major industrial zone. 
+This project started as a simple curiosity about how things spread. Today, it’s a framework that can model anything from a small neighborhood forest to a major industrial zone like Damoh. 
 
 **Want to run your own experiment?**
 Check out `v3.0/app.py`, upload a map of your hometown, and see what happens when you add a forest next to the highway.
