@@ -63,10 +63,10 @@ Advanced feature set including:
 
 | Figure | Description |
 | :--- | :--- |
-| ![Fig 1](assets/image1.png) | **Figure 1**: Baseline isotropic diffusion from a central point source (v0.1). |
-| ![Fig 2](assets/image4.png) | **Figure 2**: Impact of directional advection (Wind) on plume geometry (v0.2). |
-| ![Fig 3](assets/image2.png) | **Figure 3**: Simulation of a linear emission source representing an urban arterial road. |
-| ![Fig 4](assets/image5.png) | **Figure 4**: Comparative analysis of stack height dispersion (v0.3). |
+| ![Fig 1](./assets/image1.png) | **Figure 1**: Baseline isotropic diffusion from a central point source (v0.1). |
+| ![Fig 2](./assets/image4.png) | **Figure 2**: Impact of directional advection (Wind) on plume geometry (v0.2). |
+| ![Fig 3](./assets/image2.png) | **Figure 3**: Simulation of a linear emission source representing an urban arterial road. |
+| ![Fig 4](./assets/image5.png) | **Figure 4**: Comparative analysis of stack height dispersion (v0.3). |
 
 ---
 

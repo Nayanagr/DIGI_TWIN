@@ -84,7 +84,7 @@ I then introduced targeted "Sinks" to see if we could "scrub" the air:
 2.  **Industrial Green Belt**: A strategic forest buffer (18x10) with 0.42 unit/step capture.
 3.  **DAC Deployment**: I placed Direct Air Capture (DAC) units at coordinates (50,50), (51,51), (52,52), and (52,53) with a massive 14 unit/step capture intensity.
 
-![Fig 6: Impact of Sinks and DAC](assets/image8.png)
+![Fig 6: Impact of Sinks and DAC](./assets/image8.png)
 *Caption: The air quality significantly improves near the DAC deployment zones and the Green Belt.*
 
 ---
