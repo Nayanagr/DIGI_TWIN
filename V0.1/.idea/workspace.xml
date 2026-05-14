@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40253d2c-cfd1-45f1-b5cb-5e06a20af5a9" name="Changes" comment="some versions more" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../TWIN" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Nayanagr&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Nayanagr/DIGI_TWIN.git&quot;,
+    &quot;accountId&quot;: &quot;378e37fb-5e4c-45f0-935f-45f49be7caee&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="35yX5ctggzCFG7nLXn0wwfkoFrI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.app.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.v0.2.executor": "Run",
+    "Python.v0.3.executor": "Run",
+    "Python.v0.4.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="V0.1" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="V0.1" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-f78a9d071105-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26574.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40253d2c-cfd1-45f1-b5cb-5e06a20af5a9" name="Changes" comment="" />
+      <created>1764083103578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764083103578</updated>
+    </task>
+    <task id="LOCAL-00001" summary="This marks the first initial prototype&#10;This basically takes a pollutino conc at the center and applies basic diffusion modelling to diffuse the pollution to all of the remaning matrix via basic diffusion modelling.">
+      <option name="closed" value="true" />
+      <created>1764106794845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764106794845</updated>
+    </task>
+    <task id="LOCAL-00002" summary="This marks the first initial prototype&#10;This basically takes a pollutino conc at the center and applies basic diffusion modelling to diffuse the pollution to all of the remaning matrix via basic diffusion modelling.">
+      <option name="closed" value="true" />
+      <created>1764108289558</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764108289558</updated>
+    </task>
+    <task id="LOCAL-00003" summary="This have the line source">
+      <option name="closed" value="true" />
+      <created>1764108492682</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764108492682</updated>
+    </task>
+    <task id="LOCAL-00004" summary="whatever">
+      <option name="closed" value="true" />
+      <created>1764246870469</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764246870469</updated>
+    </task>
+    <task id="LOCAL-00005" summary="The V0.2 now includes a emission source defined as Industry(x, y, emission_rate, name=String) &#10;This gives the functionality of have an emission source at desired point  in the map and then the advection apply_advection_current(ux,uy) thjs function applies the wind which are stored as constants in the file in the top&#10;Now the sim_run() function runs the simulations&#10;&#10;Feel free to give it a try :)">
+      <option name="closed" value="true" />
+      <created>1764249261566</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764249261566</updated>
+    </task>
+    <task id="LOCAL-00006" summary="The Problem: &quot;Overshooting&quot;Imagine a cell has 10 units of CO₂.If your D (Diffusion rate) is too high, the math might say: &quot;Transfer 12 units to the neighbor.&quot;The cell now has -2 CO₂ (impossible physics).The neighbor has +12 CO₂.In the next step, the -2 tries to suck CO₂ back in, often overcompensating to +20.The simulation creates a feedback loop and explodes into infinity or random noise.The Solution: The &quot;Speed Limit&quot; MathYou don't have to guess. There is a rigid formula to calculate the maximum safe settings.For Diffusion: The logic cannot move more than 50% of a cell's contents in one step.$$D \le \frac{0.5}{(\Delta t / \Delta x^2)}$$(Since our grid distance $\Delta x$ is 1 pixel and time step $\Delta t$ is 1 tick, this simplifies to $D \le 0.25$).For Wind (Advection): The wind cannot move pollution across more than 1 cell in a single step.$$|Velocity| \le \frac{1.0}{(\Delta t / \Delta x)}$$(Simplifies to $|Wind| \le 1.0$).&#10;&#10;I added a Stability Check system. Now, instead of guessing, the program calculates if your settings are mathematically safe before running.&#10;&#10;I also added a Stack Height simulation as you requested earlier (simulated by a wider initial dispersion radius).">
+      <option name="closed" value="true" />
+      <created>1764249832503</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1764249832503</updated>
+    </task>
+    <task id="LOCAL-00007" summary="The Problem: &quot;Overshooting&quot;Imagine a cell has 10 units of CO₂.">
+      <option name="closed" value="true" />
+      <created>1764250106618</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764250106618</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Version 0.4: City Infrastructure (Roads &amp; Sinks)&#10;&#10;Date: [Current Date]&#10;Goal: Model complex geometry (Roads) and negative emissions (Capture).&#10;&#10;Methodology: Line Rasterization&#10;&#10;To model roads on a discrete grid, we implemented a rasterization algorithm.&#10;&#10;Logic: Used np.linspace to interpolate points between (x1, y1) and (x2, y2).&#10;&#10;Sampling Rate: Determined by the Chebyshev distance (max(|dx|, |dy|)) to ensure 8-connected continuity (no gaps in the road).&#10;&#10;Emissions: The total road emission rate is distributed evenly across all rasterized pixels to ensure conservation of mass.&#10;&#10;Methodology: The Sink Term&#10;&#10;Added the $S_{sink}$ term to the governing equation.&#10;&#10;Constraint: Implemented max(0, current - removal) to prevent negative concentration (non-physical vacuum).">
+      <option name="closed" value="true" />
+      <created>1765028642430</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765028642430</updated>
+    </task>
+    <task id="LOCAL-00009" summary="some versions more">
+      <option name="closed" value="true" />
+      <created>1765128556138</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765128556138</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="This marks the first initial prototype&#10;This basically takes a pollutino conc at the center and applies basic diffusion modelling to diffuse the pollution to all of the remaning matrix via basic diffusion modelling." />
+    <MESSAGE value="This have the line source" />
+    <MESSAGE value="whatever" />
+    <MESSAGE value="The V0.2 now includes a emission source defined as Industry(x, y, emission_rate, name=String) &#10;This gives the functionality of have an emission source at desired point  in the map and then the advection apply_advection_current(ux,uy) thjs function applies the wind which are stored as constants in the file in the top&#10;Now the sim_run() function runs the simulations&#10;&#10;Feel free to give it a try :)" />
+    <MESSAGE value="The Problem: &quot;Overshooting&quot;Imagine a cell has 10 units of CO₂.If your D (Diffusion rate) is too high, the math might say: &quot;Transfer 12 units to the neighbor.&quot;The cell now has -2 CO₂ (impossible physics).The neighbor has +12 CO₂.In the next step, the -2 tries to suck CO₂ back in, often overcompensating to +20.The simulation creates a feedback loop and explodes into infinity or random noise.The Solution: The &quot;Speed Limit&quot; MathYou don't have to guess. There is a rigid formula to calculate the maximum safe settings.For Diffusion: The logic cannot move more than 50% of a cell's contents in one step.$$D \le \frac{0.5}{(\Delta t / \Delta x^2)}$$(Since our grid distance $\Delta x$ is 1 pixel and time step $\Delta t$ is 1 tick, this simplifies to $D \le 0.25$).For Wind (Advection): The wind cannot move pollution across more than 1 cell in a single step.$$|Velocity| \le \frac{1.0}{(\Delta t / \Delta x)}$$(Simplifies to $|Wind| \le 1.0$).&#10;&#10;I added a Stability Check system. Now, instead of guessing, the program calculates if your settings are mathematically safe before running.&#10;&#10;I also added a Stack Height simulation as you requested earlier (simulated by a wider initial dispersion radius)." />
+    <MESSAGE value="The Problem: &quot;Overshooting&quot;Imagine a cell has 10 units of CO₂." />
+    <MESSAGE value="Version 0.4: City Infrastructure (Roads &amp; Sinks)&#10;&#10;Date: [Current Date]&#10;Goal: Model complex geometry (Roads) and negative emissions (Capture).&#10;&#10;Methodology: Line Rasterization&#10;&#10;To model roads on a discrete grid, we implemented a rasterization algorithm.&#10;&#10;Logic: Used np.linspace to interpolate points between (x1, y1) and (x2, y2).&#10;&#10;Sampling Rate: Determined by the Chebyshev distance (max(|dx|, |dy|)) to ensure 8-connected continuity (no gaps in the road).&#10;&#10;Emissions: The total road emission rate is distributed evenly across all rasterized pixels to ensure conservation of mass.&#10;&#10;Methodology: The Sink Term&#10;&#10;Added the $S_{sink}$ term to the governing equation.&#10;&#10;Constraint: Implemented max(0, current - removal) to prevent negative concentration (non-physical vacuum)." />
+    <MESSAGE value="some versions more" />
+    <option name="LAST_COMMIT_MESSAGE" value="some versions more" />
+  </component>
+</project>
